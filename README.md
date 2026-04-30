@@ -6,7 +6,7 @@
 
 ---
 
-## ⚠️ Legal Disclaimer
+## Legal Disclaimer
 
 This tool is intended **ONLY** for:
 - Systems you **own**
@@ -19,7 +19,7 @@ Unauthorized scanning is illegal under computer fraud laws (e.g. CFAA in the US,
 
 ## Features
 
-### 🔍 1. Vulnerability Scanner
+### 1. Vulnerability Scanner
 Check a target URL for OWASP Top 10 issues including:
 
 | Check | Description |
@@ -33,12 +33,12 @@ Check a target URL for OWASP Top 10 issues including:
 | Sensitive File Exposure | Probes 18 common paths (`.env`, `wp-config.php`, `/.git/config`, etc.) |
 | Server Fingerprint | Extracts `Server` and `X-Powered-By` header values |
 
-### 📰 2. Security News Feed
+### 2. Security News Feed
 - Fetches Hacker News top 100 stories via the official Firebase API
 - Filters for security keywords: `CVE`, `exploit`, `breach`, `XSS`, `ransomware`, `vulnerability`, and more
 - Displays results in a rich table with score, comment count, and source link
 
-### 🛡️ 3. CVE Database Browser
+### 3. CVE Database Browser
 - Queries the [NVD API](https://services.nvd.nist.gov/rest/json/cves/2.0) for CVEs by vulnerability type
 - 7 preset categories + custom keyword search:
   - XSS (Cross-Site Scripting)
